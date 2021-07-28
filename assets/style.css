@@ -32,8 +32,8 @@
 }
 .container .madoka input {
   background: transparent;
-  border-bottom: 2px solid #76718d;
   border: none;
+  border-bottom: 2px solid #76718d;
   color: #76718d;
   font-size: 25px;
   font-weight: bold;
@@ -42,9 +42,6 @@
   padding-left: 10px;
   transition-delay: 0.3s;
   width: 100%;
-}
-.container .madoka input::before {
-  border-bottom: 2px solid #76718d;
 }
 .container .madoka input:focus,
 .container .madoka input:valid {
