@@ -32,8 +32,8 @@
             width: 100%;
         }
         input {
-            background:transparent;
-            border-bottom: 2px solid #76718d ;
+            background: transparent;
+            border-bottom: 2px solid #76718d;
             border: none;
             color: #76718d;
             font-size: 25px;
@@ -43,7 +43,9 @@
             padding-left: 10px;
             transition-delay: 0.3s;
             width: 100%;
-            
+            &::before{
+                border-bottom: 2px solid #76718d;
+            }
             &:focus , &:valid{
                 border: 2px solid #76718d;
                 & + label{
